@@ -18,3 +18,7 @@
   - Changed embedded server port to 7070 
   - Injected properties into Spring App 
   - Exposed new endpoint for "/teaminfo" to display properties
+
+## 02: Spring Boot Spring Core Projects
+- Constructor Injection
+ - 
