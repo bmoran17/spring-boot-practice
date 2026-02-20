@@ -1,7 +1,10 @@
-package com.example.spring_core_demo;
+package com.example.spring_core_demo.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.util.Coach;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

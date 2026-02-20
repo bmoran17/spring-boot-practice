@@ -21,4 +21,12 @@
 
 ## 02: Spring Boot Spring Core Projects
 - Constructor Injection
- - 
+  - Defined dependency interface & class that implements it 
+  - Created REST controller
+  - Defined constructor for dependency injection
+  - Exposed REST endpoint
+- Component Scanning
+  - Created sub packages inside main Spring Boot app class & moved classes inside
+    - Ran app to test component scanning works properly
+  - Created sub packages outside main Spring Boot app class
+    - had to explicitly configure base packages in `@SpringBootApplication` in order for component scanning to work 
