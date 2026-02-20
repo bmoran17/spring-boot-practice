@@ -30,3 +30,6 @@
     - Ran app to test component scanning works properly
   - Created sub packages outside main Spring Boot app class
     - had to explicitly configure base packages in `@SpringBootApplication` in order for component scanning to work 
+- Setter Injection
+  - Deleted constructor for dependency injection
+  - Created a setter method annotated with `@Autowired`
