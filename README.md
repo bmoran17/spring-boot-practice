@@ -39,3 +39,6 @@
 - Primary
   - Still have multiple implementations of `Coach` interface
   - Added `Primary` annotation to implementation to use
+- Lazy Initialization
+  - Added `@Lazy` annotation to `TrackCoach` class so its not injected & created == not initialized
+  - 
