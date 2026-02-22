@@ -60,13 +60,14 @@
     - Defined @Bean Method to configure bean
     - Injected bean into controller
 
-## 03: Spring Boot Hibernate JPA CRUD Projects
+## 03: Spring Boot Hibernate JPA CRUD Project
 - Starter SQl Scripts
   - `create-users.sql` creates new MySQL user for application
   - `student-tracker.sql` creates a new database table: `student`
 - CRUD Demo Student
-  - Setting up Spring Boot project with Hibernate/JPA
+  - Set up Spring Boot project with Hibernate/JPA
     - Set up command line runner to execute code right after Spring Boot starts
     - Added JDBC database connection information
-    - Map `Student` class to database table
-    - Map class fields to database columns
+    - Mapped `Student` class to database table
+    - Mapped class fields to database columns
+   - Set up a data access object to interact with database
