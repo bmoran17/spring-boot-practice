@@ -70,4 +70,5 @@
     - Added JDBC database connection information
     - Mapped `Student` class to database table
     - Mapped class fields to database columns
-   - Set up a data access object to interact with database
+  - Set up a data access object to interact with database
+    - Able to save multiple Student objects into database

@@ -24,9 +24,26 @@ public class CruddemoApplication {
     // Java Lambda expression 
     // shortcut notation for providing an implementation of command line runner interface
     return runner -> {
-      createStudent(studentDAO);
+      // createStudent(studentDAO);
+      createMultipleStudents(studentDAO);
     };
 }
+
+  private void createMultipleStudents(StudentDAO studentDAO) {
+
+    // create multiple students
+    System.out.println("Creating 3 student objects ...");
+    Student tempStudent1 = new Student("Thor", "White","thor@gmail.com");
+    Student tempStudent2 = new Student("Damon", "Salvatore","damon@gmail.com");
+    Student tempStudent3 = new Student("Nancy", "Wheeler","nancy@gmail.com");
+
+
+    // save the student objects
+    System.out.println("Saving the students ... ");
+    studentDAO.save(tempStudent1);
+    studentDAO.save(tempStudent2);
+    studentDAO.save(tempStudent3);
+  }
 
   private void createStudent(StudentDAO studentDAO) {
 
