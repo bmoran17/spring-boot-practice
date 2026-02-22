@@ -1,4 +1,5 @@
 # Spring Boot 4 Practice
+
 ## 01: Spring Boot Overview Projects
 - Spring Boot Demo
   - Added a REST controller to handle "/" & return "Hello World"
@@ -58,3 +59,12 @@
     - Created new Java class `SportConfig` & annotated it with `@Configuration` to define Spring beans manually
     - Defined @Bean Method to configure bean
     - Injected bean into controller
+
+## 03: Spring Boot Hibernate JPA CRUD Projects
+- Starter SQl Scripts
+  - `create-users.sql` creates new MySQL user for application
+  - `student-tracker.sql` creates a new database table: `student`
+- CRUD Demo Student
+  - Setting up Spring Boot project with Hibernate/JPA
+    - Set up command line runner to execute code right after Spring Boot starts
+    - Added JDBC database connection information
