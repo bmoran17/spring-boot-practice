@@ -49,3 +49,12 @@
   - Implemented two dependency injections that: 
     - reference same object instance (singleton bean scope)
     - reference different object instances (prototype bean scope)
+- Bean Lifecycle Methods
+  - Created a ic
+  - Uses annotations: `@PostConstruct` & `@PreDestroy`
+- Java Config Bean
+  - Created a new implementation of `Coach` without `@Component`
+  - Configure bean using Java configuration instead
+    - Created new Java class `SportConfig` & annotated it with `@Configuration` to define Spring beans manually
+    - Defined @Bean Method to configure bean
+    - Injected bean into controller
