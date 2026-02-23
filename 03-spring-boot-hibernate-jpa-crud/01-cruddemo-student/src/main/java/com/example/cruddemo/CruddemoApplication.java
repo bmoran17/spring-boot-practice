@@ -27,13 +27,14 @@ public class CruddemoApplication {
     // shortcut notation for providing an implementation of command line runner interface
     return runner -> {
       // createStudent(studentDAO);
-      // createMultipleStudents(studentDAO);
+      createMultipleStudents(studentDAO);
       // readStudent(studentDAO);
       // queryForStudents(studentDAO);
       // queryForStudenstLastName(studentDAO);
       // updateStudent(studentDAO);
       // deleteStudent(studentDAO);
-      deleteAllStudents(studentDAO);
+      // deleteAllStudents(studentDAO);
+
     };
 }
   private void deleteAllStudents(StudentDAO studentDAO) {

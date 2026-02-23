@@ -64,7 +64,8 @@
 - Starter SQl Scripts
   - `create-users.sql` creates new MySQL user for application
   - `student-tracker.sql` creates a new database table: `student`
-- CRUD Demo Student
+
+**CRUD Demo Student**
   - Set up Spring Boot project with Hibernate/JPA
     - Set up command line runner to execute code right after Spring Boot starts
     - Added JDBC database connection information
@@ -76,5 +77,7 @@
     - Read objects => reading/querying student object from database
     - Update objects => updating student objecs from database
     - Delete objects => deleting student objects from database
-
+  - Created database table from java code
+    - Dropped table with existing student objects
+    - Configure JPA/Hibernate to auto create the table
     
