@@ -80,4 +80,8 @@
   - Created database table from java code
     - Dropped table with existing student objects
     - Configure JPA/Hibernate to auto create the table
-    
+
+## 07: Spring Boot Spring MVC
+- Thymeleaf Demo - Hello World
+  - Build a spring boot application that uses Timeleaf templates
+  - Created basic template for "/hello" that renders time on server
