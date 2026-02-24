@@ -95,5 +95,9 @@
     - Controller method to process HTML form
   - Added Thymeleaf templates corresponding to each method
 - Added Data to Spring MVC Model
+  - Used `HttpServletRequest` to read form data
   - Read form data in controller & modify to all caps & store in model
-  - Access model data in template view
+  - Access model data in template 
+- Used `@RequestParam` to read HTML form data
+  - `@RequestParam` automatically reads form data from request parameters & binds the value directly to a method parameter
+  - Eliminates the need for `HttpServletRequest`
