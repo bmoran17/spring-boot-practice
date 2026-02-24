@@ -104,3 +104,8 @@
 - Used `@GetMapping` and `@PostMapping` to handle only `GET` or `POST` form submissions
   - Used `GET` to send data in URL
   - Used `POST` to send data in request body 
+
+**Updated Project to include Form Data Binding**
+- Updated form to include 2 input text fields for Student first & last name
+  - Form submits => show confirmation page with student name
+  - Spring automatically calls getters & setters in Thymeleaf template 
