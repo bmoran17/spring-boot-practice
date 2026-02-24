@@ -109,3 +109,5 @@
 - Updated form to include 2 input text fields for Student first & last name
   - Form submits => show confirmation page with student name
   - Spring automatically calls getters & setters in Thymeleaf template 
+- Added a drop down for selecting a country that uses form data binding
+  - Added hard coded values for drop down from properties file
