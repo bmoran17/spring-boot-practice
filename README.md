@@ -120,3 +120,5 @@
 - Created form to prompt user for first & last name
   - Form submits => displays confirmation of first & last name
 - Added validation to last name => must not be empty
+- Added `@InitBinder` annotation & `StringTrimmerEditor` build in class to trim leading whitespace & trailing whitespace 
+  - Avoids validation not failing when user enters only spaces for last name 
