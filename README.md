@@ -124,5 +124,7 @@
   - Avoids validation not failing when user enters only spaces for last name 
 - Added new field to form: free passes with acceptable range of 0 to 10
   - Added range validation to free passes with `@Min` & `@Max`
+  - Made field required
+  - Added custom error message "Invalid number" when string text is provided
 - Added new field to form: postal code that must contatin exactly 5 digits
   - Added regular expression validation with `@Pattern`
