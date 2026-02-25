@@ -113,3 +113,5 @@
   - Added hard coded values for drop down from properties file
 - Added radio button options for selecting a favortie programming language
   - Added list of values for radio buttons in properties file
+- Added check boxes options for selecting favorite operating system
+  - Added list of valude for check boxed in properties file

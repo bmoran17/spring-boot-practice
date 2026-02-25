@@ -21,6 +21,10 @@ public class StudentController {
   // injects data from properties file
   @Value("${languages}")
   private List<String> languages;
+
+    // injects data from properties file
+  @Value("${systems}")
+  private List<String> systems;
   
   @GetMapping("/showStudentForm")
   public String showForm(Model theModel) {
@@ -36,7 +40,9 @@ public class StudentController {
 
     // add list of languages to model
     theModel.addAttribute("languages", languages);
-
+    
+    // add list of systems to model
+    theModel.addAttribute("systems", systems);
     return "student-form";
   }
 
