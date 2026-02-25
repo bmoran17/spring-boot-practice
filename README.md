@@ -82,12 +82,12 @@
     - Configure JPA/Hibernate to auto create the table
 
 ## 07: Spring Boot Spring MVC
-- Thymeleaf Demo - Hello World
+**Thymeleaf Demo - Hello World**
   - Build a spring boot application that uses Timeleaf templates
   - Created basic template for "/hello" that renders time on server
   - Added CSS to Thymeleaf template
-
-**Updated Project to include Form**
+  
+++ Added Form
 - Created form to prompt user for name
   - Displayed confirmation page with name provided
   - Created controller class with 2 request mappings:
@@ -105,7 +105,7 @@
   - Used `GET` to send data in URL
   - Used `POST` to send data in request body 
 
-**Updated Project to include Form Data Binding**
+++ Added Form Data Binding
 - Updated form to include 2 input text fields for Student first & last name
   - Form submits => show confirmation page with student name
   - Spring automatically calls getters & setters in Thymeleaf template 
@@ -115,3 +115,8 @@
   - Added list of values for radio buttons in properties file
 - Added check boxes options for selecting favorite operating system
   - Added list of valude for check boxed in properties file
+
+**Validation Demo**
+- Created form to prompt user for first & last name
+  - Form submits => displays confirmation of first & last name
+- Added validation to last name => must not be empty
