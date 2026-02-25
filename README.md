@@ -128,3 +128,5 @@
   - Added custom error message "Invalid number" when string text is provided
 - Added new field to form: postal code that must contatin exactly 5 digits
   - Added regular expression validation with `@Pattern`
+- Added new field to form: course code
+  - Implemented a custom Java annotation for field so it begins with a prefix
